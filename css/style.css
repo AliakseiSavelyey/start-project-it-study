@@ -43,6 +43,10 @@ ul {
 .nav-header a:focus {
   color: var(--blue-color);
 }
+.nav-header .current {
+  color: var(--blue-color);
+}
+
 .auth-header a {
   color: #757575;
 }
