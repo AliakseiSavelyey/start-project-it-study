@@ -1,3 +1,6 @@
+/* Палитры цветов
+/* #ECECEC #212121 #2196F3 #757575 #FFFFFF #2F303A #F5F4FA #EEEEEE #rgba(255, 255, 255, 0.6) */
+
 /* кастомные CSS свойства  */
 :root {
   --blue-color: #2196F3;
@@ -17,26 +20,17 @@ ul {
   list-style: none;
 }
 
-/* Палитры цветов */
-#ECECEC
-#212121
-#2196F3
-#757575
-#FFFFFF
-#2F303A
-#E5E5E5
-#F5F4FA
-#EEEEEE
-#rgba(255, 255, 255, 0.6)
-
 
 
 
 
  /* header */
 
+.web {
+  color: var(--blue-color);
+}
 .logo {
-  color: #000000;
+  color:var(--black-color);
 }
 .header {
   background-color: #ECECEC;
@@ -58,7 +52,6 @@ ul {
 
 
 /* hero - main */
-
 .hero {
   background-color: #2F303A;
 }
@@ -69,17 +62,14 @@ ul {
 
 
 
-
-
 /* our team */
-
 .our-team {
   background-color: #F5F4FA;
 }
 
 
-/* footer */
 
+/* footer */
 .footer {
   background-color: #2F303A;
 }
