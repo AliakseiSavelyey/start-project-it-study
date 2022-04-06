@@ -1,54 +1,81 @@
+:root {
+  --blue-color: #2196F3;
+  --white-color: #FFFFFF;
+  --title-color: #212121;
+}
+
 body {
   color: #757575;
   background-color: #E5E5E5;
 }
-h1, h2, h3, h4 {
-  color: #212121;
+h1, h2, h3, h4, h5, h6 {
+  color:var(--title-color)
 }
-p {
-  color: #757575;
+ul {
+  list-style: none;
 }
 
+/* Палитры цветов */
+#ECECEC
+#212121
+#2196F3
+#757575
+#FFFFFF
+#2F303A
+#E5E5E5
+#F5F4FA
+#EEEEEE
+#rgba(255, 255, 255, 0.6)
+
+
+
+
+
+
+
+
+
+
+
+
+/* header */
 .web {
-  color: #2196F3;
+  color: var(--blue-color);
 }
 .logo {
   color: #000000;
 }
-
-
-/* header */
-
-.page-header {
+.header {
   background-color: #ECECEC;
 }
 .nav-header a {
-  color: #212121;
+  color:var(--title-color);
 }
 .nav-header a:hover, 
 .nav-header a:focus {
-  color: #2196F3;
+  color: var(--blue-color);
 }
 .auth-header a {
   color: #757575;
 }
 .auth-header a:hover,
 .auth-header a:focus {
-  color: #2196F3;
+  color: var(--blue-color);
 }
 
 
-/* main */
+/* hero - main */
 
 .hero {
   background-color: #2F303A;
 }
-.hero-title {
-  color: #fff;
-}
+.hero-title,
 .hero-bottom {
-  color: #fff;
+  color:var(--white-color);
 }
+
+
+
 
 
 /* our team */
@@ -64,11 +91,11 @@ p {
   background-color: #2F303A;
 }
 .address-footer p {
-  color: #fff;
+  color:var(--white-color);
 }
 .address-footer a {
   color: rgba(255, 255, 255, 60%)
 }
 .studio-footer {
-  color: #fff;
+  color:var(--white-color);
 }
