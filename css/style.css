@@ -1,5 +1,5 @@
 /* Палитры цветов
-/* #ECECEC #212121 #2196F3 #757575 #FFFFFF #2F303A #F5F4FA #EEEEEE #rgba(255, 255, 255, 0.6) */
+/* #ECECEC #212121 #2196F3 #757575 #FFFFFF #2F303A #F5F4FA #EEEEEE #rgba(255,255,255,0.6) */
 
 /* кастомные CSS свойства  */
 :root {
@@ -104,7 +104,7 @@ ul {
   color:var(--white-color);
 }
 .address-footer a {
-  color: rgba(255, 255, 255, 60%)
+  color: rgba(255,255,255,60%)
 }
 .studio-footer {
   color:var(--white-color);
