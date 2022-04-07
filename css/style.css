@@ -1,3 +1,12 @@
+/* html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+} */
+
 /* Палитры цветов
 /* #ECECEC #212121 #2196F3 #757575 #FFFFFF #2F303A #F5F4FA #EEEEEE #rgba(255,255,255,0.6) */
 
