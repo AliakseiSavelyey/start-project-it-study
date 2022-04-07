@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
 }
-
 *,
 *::before,
 *::after {
@@ -19,6 +18,7 @@ html {
   --black-color: #000000;
   --button-color: #f5f4fa;
 }
+
 body {
   color: #757575;
   background-color: #E5E5E5;
@@ -27,6 +27,8 @@ body {
   font-family: Roboto, sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
   color:var(--title-color)
 }
 h2 {
@@ -38,14 +40,30 @@ h2 {
 }
 ul {
   list-style: none;
+  margin: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* container */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  outline: 2px solid red;
 }
 
 
 
 
 
- /* header */
 
+ /* header */
 .logo {
   color: var(--black-color);
   font-family: 'Raleway';
@@ -96,19 +114,15 @@ ul {
   color: var(--blue-color);
 }
 
-.container {
-  width: 1170px;
-  margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  outline: 2px solid red;
-}
+
 
 
 
 /* hero - main */
 .hero {
   background-color: #2F303A;
+  text-align:center;
+  padding-bottom: 94px;
 }
 .hero-title {
   color:var(--white-color);
@@ -118,7 +132,6 @@ ul {
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  text-align:center;
 }
 
 /* button */
@@ -140,6 +153,9 @@ ul {
 
 
 /* Section-скрытый заголовок */
+.section-hidden {
+  padding-bottom: 94px;
+}
 .section-hidden h3 {
   font-family: 'Roboto';
   font-weight: 700;
@@ -158,12 +174,16 @@ ul {
 
 
 
-
+/* our-work */
+.our-work {
+  padding-bottom: 94px;
+}
 
 
 /* our team */
 .our-team {
   background-color: #F5F4FA;
+  padding-bottom: 94px;
 }
 .our-team .name {
   font-family: 'Roboto';
@@ -184,7 +204,10 @@ ul {
 
 
 /* Section-Portfolio */
-
+.section-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .button-portfolio {
   color: var(--title-color);
   background-color: var(--button-color);
