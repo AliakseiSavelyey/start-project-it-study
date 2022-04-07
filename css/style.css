@@ -264,6 +264,10 @@ p {
 .footer {
   background-color: #2F303A;
 }
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 .footer a {
   text-decoration: none;
 }
@@ -276,6 +280,9 @@ p {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+.address-footer {
+  padding-top: 20px;
+}
 .address-footer a {
   font-family: 'Roboto';
   font-style: normal;
@@ -285,10 +292,10 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6)
 }
-.studio-footer {
-  color:var(--white-color);
-}
 .address-footer a:hover,
 .address-footer a:focus {
   color: var(--blue-color);
+}
+.studio-footer {
+  color: var(--white-color);
 }
