@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 /* Палитры цветов
 /* #ECECEC #212121 #2196F3 #757575 #FFFFFF #2F303A #F5F4FA #EEEEEE #rgba(255,255,255,0.6) */
 
@@ -86,6 +96,13 @@ ul {
   color: var(--blue-color);
 }
 
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  outline: 2px solid red;
+}
 
 
 
