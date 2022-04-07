@@ -1,12 +1,3 @@
-html {
-  box-sizing: border-box;
-}
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-}
-
 /* Палитры цветов
 /* #ECECEC #212121 #2196F3 #757575 #FFFFFF #2F303A #F5F4FA #EEEEEE #rgba(255,255,255,0.6) */
 
@@ -169,6 +160,7 @@ p {
   line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .section-hidden p {
   font-weight: 400;
@@ -184,6 +176,9 @@ p {
 .our-work {
   padding-bottom: 94px;
 }
+.our-work h2 {
+  margin-bottom: 50px;
+}
 
 
 /* our team */
@@ -197,6 +192,9 @@ p {
   font-size: 16px;
   line-height: 1.2;
   letter-spacing: 0.03em;
+}
+.our-team h2 {
+  margin-bottom: 50px;
 }
 .our-team p {
   font-family: 'Roboto';
