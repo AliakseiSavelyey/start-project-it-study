@@ -76,10 +76,18 @@ p {
   color: var(--blue-color);
 }
 .header {
-  background-color: #ECECEC;
+  background-color: #ECECEC;  
+}
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
 }
 .header a {
   text-decoration: none;
+}
+.nav-header {
+  display: flex;
 }
 .nav-header a {
   color:var(--title-color);
@@ -106,6 +114,7 @@ p {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  display: flex;
 }
 .auth-header a {
   color: #757575;
