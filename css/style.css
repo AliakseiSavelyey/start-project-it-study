@@ -213,7 +213,13 @@ p {
 .our-work h2 {
   margin-bottom: 50px;
 }
-
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+.work .item:not(:last-child) {
+  margin-right: 30px;
+}
 
 /* our team */
 .our-team {
