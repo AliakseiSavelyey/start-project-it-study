@@ -194,8 +194,16 @@ p {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-
-
+.section-hidden .list {
+  display: flex;
+  justify-content:space-between;
+}
+.list .item {
+  max-width: 270px;
+}
+.list .item:not(:last-child) {
+  margin-right: 30px;
+}
 
 
 /* our-work */
