@@ -243,7 +243,13 @@ p {
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
-
+.team {
+  display: flex;
+  justify-content:space-between;
+}
+.team .item:not(:last-child) {
+  margin-right: 30px;
+}
 
 
 
