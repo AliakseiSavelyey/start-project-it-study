@@ -59,7 +59,7 @@ img {
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 
@@ -152,8 +152,8 @@ img {
   background-color: #2F303A;
   text-align:center;
   padding-bottom: 94px;
-  background-image: url(/images/hero-img.jpg);
   background-color: #C4C4C4;
+  background-image: url(../images/hero-img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -226,6 +226,11 @@ img {
 }
 
 
+
+
+
+
+
 /* our-work */
 .our-work {
   padding-bottom: 94px;
@@ -241,10 +246,19 @@ img {
   margin-right: 30px;
 }
 
+
+
+
+
+
+
+
+
 /* our team */
 .our-team {
   background-color: #F5F4FA;
   padding-bottom: 94px;
+  text-align: center;
 }
 .our-team .name {
   font-family: 'Roboto';
@@ -276,6 +290,19 @@ img {
 .team .item:not(:last-child) {
   margin-right: 30px;
 }
+.name {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.profi {
+  margin-bottom: 16px;
+}
+.social {
+  margin-bottom: 30px;
+}
+
+
+
 
 
 
