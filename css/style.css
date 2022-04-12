@@ -207,6 +207,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 .section-hidden p {
   font-weight: 400;
@@ -224,7 +225,26 @@ img {
 .list .item:not(:last-child) {
   margin-right: 30px;
 }
-
+.list .item::before {
+  content:"";
+  display: block;
+  height: 120px;
+  background-color: #F5F4FA;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.antena::before {
+  background-image: url(../images/icon-hidden-one.svg);
+}
+.clock::before {
+  background-image: url(../images/icon-hidden-two.svg);
+}
+.diagram::before {
+  background-image: url(../images/icon-hidden-three.svg);
+}
+.astronaft::before {
+  background-image: url(../images/icon-hidden-four.svg);
+}
 
 
 
