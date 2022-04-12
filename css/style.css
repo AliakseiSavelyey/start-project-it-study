@@ -21,7 +21,7 @@
 
 body {
   color: #757575;
-  background-color: #E5E5E5;
+  background-color: #fff;
   text-decoration: none;
   text-transform: none;
   font-family: Roboto, sans-serif;
@@ -198,6 +198,7 @@ img {
 /* Section-скрытый заголовок */
 .section-hidden {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .section-hidden h3 {
   font-family: 'Roboto';
@@ -254,6 +255,7 @@ img {
 /* our-work */
 .our-work {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .our-work h2 {
   margin-bottom: 50px;
@@ -278,6 +280,7 @@ img {
 .our-team {
   background-color: #F5F4FA;
   padding-bottom: 94px;
+  padding-top: 94px;
   text-align: center;
 }
 .our-team .name {
@@ -320,6 +323,25 @@ img {
 .social {
   margin-bottom: 30px;
 }
+
+
+
+
+
+/* Секция-постоянные клиенты */
+.section-clients {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+
+
 
 
 
