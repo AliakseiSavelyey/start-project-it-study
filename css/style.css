@@ -199,11 +199,6 @@ img {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-.section-hidden h2 {
-  height: 1px;
-  width: 1px;
-  margin: -1px;
-}
 .section-hidden h3 {
   font-family: 'Roboto';
   font-weight: 700;
@@ -230,26 +225,19 @@ img {
 .list .item:not(:last-child) {
   margin-right: 30px;
 }
-.list .item::before {
-  content:"";
-  display: block;
-  height: 120px;
+.hidden-div {
   background-color: #F5F4FA;
-  background-repeat: no-repeat;
-  background-position: center;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.antena::before {
-  background-image: url(../images/icon-hidden-one.svg);
+.hidden-svg {
+  width: 70px;
+  height: 70px;
 }
-.clock::before {
-  background-image: url(../images/icon-hidden-two.svg);
-}
-.diagram::before {
-  background-image: url(../images/icon-hidden-three.svg);
-}
-.astronaft::before {
-  background-image: url(../images/icon-hidden-four.svg);
-}
+
+
 
 
 
