@@ -199,6 +199,11 @@ img {
   padding-bottom: 94px;
   padding-top: 94px;
 }
+.section-hidden h2 {
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+}
 .section-hidden h3 {
   font-family: 'Roboto';
   font-weight: 700;
@@ -412,14 +417,21 @@ img {
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
-  /* - 3 * 30px) */
+  border: 1px solid #EEEEEE;
+  background: #fff;
+}
+.cards .item:hover,
+.cards .item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+  0px 4px 4px rgba(0, 0, 0, 0.06),
+  1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .description {
   padding: 20px 24px;
-  border-top: 0;
+  /* border-top: 0;
   border-right: 1px solid rgba(238, 238, 238, 1);
   border-bottom: 1px solid rgba(238, 238, 238, 1);
-  border-left: 1px solid rgba(238, 238, 238, 1);
+  border-left: 1px solid rgba(238, 238, 238, 1); */
 }
 
 
