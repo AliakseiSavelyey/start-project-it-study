@@ -132,18 +132,17 @@ img {
 .auth-link {
   padding-top: 32px;
   padding-bottom: 32px;
-  display: flex;
-  align-items: center;
+  display: block;
   color: #757575;
 }
-.auth-link:hover,
+.auth-link:hover, 
 .auth-link:focus {
   color: var(--blue-color);
 }
 .auth-item:not(:last-child) {
   margin-right: 50px;
 }
-.auth-mail {
+.auth-mail, .auth-phone {
   height: 12px;
   width: 16px;
   margin-right: 10px;
@@ -151,6 +150,10 @@ img {
 }
 .auth-mail:hover,
 .auth-mail:focus {
+  fill: var(--blue-color);
+}
+.auth-phone:hover,
+.auth-phone:focus {
   fill: var(--blue-color);
 }
 
