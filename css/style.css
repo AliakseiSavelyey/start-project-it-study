@@ -129,21 +129,32 @@ img {
   display: flex;
   margin-left: auto;
 }
-.auth-header a {
+.auth-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  align-items: center;
   color: #757575;
 }
-.auth-header a:hover,
-.auth-header a:focus {
+.auth-link:hover,
+.auth-link:focus {
   color: var(--blue-color);
 }
 .auth-item:not(:last-child) {
   margin-right: 50px;
 }
-.auth-item a {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+.auth-mail {
+  height: 12px;
+  width: 16px;
+  margin-right: 10px;
+  fill: #757575;
 }
+.auth-mail:hover,
+.auth-mail:focus {
+  fill: var(--blue-color);
+}
+
+
 
 
 
