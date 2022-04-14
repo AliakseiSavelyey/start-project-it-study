@@ -487,6 +487,12 @@ img {
 .footer a {
   text-decoration: none;
 }
+.footer .item-mail {
+  margin-top: 10px;
+}
+.footer .item-phone {
+  margin-top: 10px;
+}
 .address-footer p {
   color:var(--white-color);
   font-family: 'Roboto';
@@ -497,7 +503,7 @@ img {
   letter-spacing: 0.03em;
 }
 .address-footer {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .address-footer a {
   font-family: 'Roboto';
