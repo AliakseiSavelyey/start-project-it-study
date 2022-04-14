@@ -327,10 +327,30 @@ img {
   margin-bottom: 16px;
 }
 .social {
+  display: flex;
   margin-bottom: 30px;
+  justify-content: center;
 }
-
-
+.social .item-social:not(:last-child) {
+  margin-right: 10px;
+}
+.link-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.svg-social {
+  fill: #AFB1B8;
+}
+.link-social:hover {
+  background-color: var(--blue-color);
+}
+.link-social:hover .svg-social {
+  fill:#fff;
+}
 
 
 
@@ -363,6 +383,7 @@ img {
 .link-clients:hover .svg-clients {
   fill: #2196F3
 }
+
 
 
 
