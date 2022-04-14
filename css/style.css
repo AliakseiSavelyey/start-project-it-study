@@ -480,6 +480,7 @@ img {
   background-color: #2F303A;
 }
 .footer .container {
+  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -513,4 +514,25 @@ img {
 }
 .studio-footer {
   color: var(--white-color);
+}
+.join {
+  margin-left: 70px;
+}
+.footer b {
+  display: block;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:#FFFFFF;
+  margin-bottom: 20px;
+}
+.social-footer {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.svg-footer {
+  fill:#FFFFFF
 }
