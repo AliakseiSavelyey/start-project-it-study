@@ -148,12 +148,12 @@ img {
   margin-right: 10px;
   fill: #757575;
 }
-.auth-mail:hover,
-.auth-mail:focus {
+.auth-link:hover .auth-mail,
+.auth-link:focus .auth-mail {
   fill: var(--blue-color);
 }
-.auth-phone:hover,
-.auth-phone:focus {
+.auth-link:hover .auth-phone,
+.auth-link:focus .auth-phone {
   fill: var(--blue-color);
 }
 
@@ -354,16 +354,14 @@ img {
   justify-content: center;
   align-items: center;
 }
-.link-clients:hover,
-.link-clients:focus {
-  color: var(--blue-color);
+.clients .link-clients:hover, .clients .link-clients:focus {
+  border: 1px solid #2196F3;
 }
 .svg-clients {
   fill: #AFB1B8;
-  
 }
-.svg-clients:hover {
-  fill:#2196F3
+.link-clients:hover .svg-clients {
+  fill: #2196F3
 }
 
 
