@@ -345,8 +345,26 @@ img {
   justify-content: space-between;
   margin-top: 50px;
 }
-
-
+.link-clients {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.link-clients:hover,
+.link-clients:focus {
+  color: var(--blue-color);
+}
+.svg-clients {
+  fill: #AFB1B8;
+  
+}
+.svg-clients:hover {
+  fill:#2196F3
+}
 
 
 
