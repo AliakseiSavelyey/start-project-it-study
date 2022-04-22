@@ -108,10 +108,12 @@ img {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-header a:hover, 
 .nav-header a:focus {
   color: var(--blue-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .nav-header .current {
   color: var(--blue-color);
@@ -151,10 +153,12 @@ img {
   padding-bottom: 32px;
   display: block;
   color: #757575;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .auth-link:hover, 
 .auth-link:focus {
   color: var(--blue-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .auth-item:not(:last-child) {
   margin-right: 50px;
@@ -164,14 +168,17 @@ img {
   width: 16px;
   margin-right: 10px;
   fill: #757575;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .auth-link:hover .auth-mail,
 .auth-link:focus .auth-mail {
   fill: var(--blue-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .auth-link:hover .auth-phone,
 .auth-link:focus .auth-phone {
   fill: var(--blue-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -222,10 +229,15 @@ img {
   left: 0;
   background-color: rgba(175, 177, 184, 0.5);
   z-index: 1;
+  opacity: 1;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden {
   opacity: 0;
   pointer-events: none;
+}
+.is-hidden .modal {
+  transform: scale(1.1) translate(-50%, -50%);
 }
 .modal {
   position: absolute;
@@ -240,7 +252,8 @@ img {
   0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-button {
   position: absolute;
@@ -415,15 +428,21 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-social {
   fill: #AFB1B8;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-social:hover {
+.link-social:hover,
+.link-social:focus {
   background-color: var(--blue-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-social:hover .svg-social {
+.link-social:hover .svg-social,
+.link-social:focus .svg-social {
   fill:#fff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -447,15 +466,21 @@ img {
   border-radius: 4px;
   justify-content: center;
   align-items: center;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.clients .link-clients:hover, .clients .link-clients:focus {
+.clients .link-clients:hover, 
+.clients .link-clients:focus {
   border: 1px solid #2196F3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .svg-clients {
   fill: #AFB1B8;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.link-clients:hover .svg-clients {
-  fill: #2196F3
+.link-clients:hover .svg-clients,
+.link-clients:focus .svg-clients {
+  fill: #2196F3;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -480,11 +505,13 @@ img {
   padding: 6px 22px;
   border: 0;
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-portfolio:hover,
 .button-portfolio:focus {
   color: var(--white-color);
   background-color: var(--blue-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-portfolio {
   padding-top: 94px;
@@ -531,12 +558,14 @@ img {
   flex-basis: calc(100% / 3 - 30px);
   border: 1px solid #EEEEEE;
   background: #fff;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .cards .item:hover,
 .cards .item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
   0px 4px 4px rgba(0, 0, 0, 0.06),
   1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .description {
   padding: 20px 24px;
@@ -565,9 +594,12 @@ img {
 
   transform: translatey(100%);
   transition: transform 250ms ease;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cards-link:hover .cards-text {
+.cards-link:hover .cards-text,
+.cards-link:focus .cards-text {
   transform: translate(0);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -611,11 +643,13 @@ img {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6)
+  color: rgba(255, 255, 255, 0.6);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-footer a:hover,
 .address-footer a:focus {
   color: var(--blue-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .studio-footer {
   color: var(--white-color);
