@@ -55,31 +55,41 @@
               <div data-modal class="backdrop is-hidden">
                 <div class="modal">
                   <div data-modal-close class="modal-button"></div>
-                  <form action="form">
-                    <h3>Оставьте свои данные, мы вам перезвоним</h3>
-                    <label for="username">
-                      Имя
-                      <input type="text" name="username" placeholder="Иван" id="username">
-                    </label>
-                    <label for="tel">
-                      Телефон
-                      <input type="tel" name="tel" placeholder="+380 99 111 11 11" id="tel">
-                    </label>
-                    <label for="email">
-                      Почта
-                      <input type="email" name="email" placeholder="email@gmail.com" id="email">
-                    </label>
-                    <label for="comments">
-                      Комментарий
-                      <textarea name="comments" id="comments" rows="5"></textarea>
-                    </label>
-                    <label for="checkbox">
+
+
+                  <!-- FORM -->
+                  <form class="form js-speaker-form" autocomplete="off">
+                    <b>Оставьте свои данные, мы вам перезвоним</b>
+                    
+                    <div class="field">
+                      <label for="username">Имя</label>
+                      <input type="text" name="username" id="username">
+                    </div>
+
+                    <div class="field">
+                      <label for="tel">Телефон</label>
+                      <input type="tel" name="tel" id="tel">
+                    </div>
+
+                    <div class="field">
+                      <label for="email">Почта</label>
+                      <input type="email" name="email" id="email">
+                    </div>
+
+                    <div class="field">
+                      <label for="comments">Комментарий</label>
+                      <textarea name="comments" id="comments" placeholder="Введите текст" rows="5"></textarea>
+                    </div>
+
+                    <div class="checkbox">
                       <input type="checkbox" name="checkbox" id="checkbox">
-                      Соглашаюсь с рассылкой и принимаю
-                      <a href="">Условия договора</a>
-                    </label>
+                      <label for="checkbox">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
+                    </div>
+
                     <button type="submit">Отправить</button>
                   </form>
+
+
                 </div>
               </div>
             </div>
@@ -436,7 +446,22 @@
       </div>
     </footer>
 
+
+
+
     <!-- JS -->
     <script src="./js/modal.js"></script>
+    <script>
+      (() => {
+  document
+    .querySelector('.js-speaker-form').addEventListener('submit', e => {
+    e.preventDefault();
+
+    new FormData(e.currentTarget).forEach((value, name) =>
+      console.log(`${name}: ${value}`),
+    );
+  });
+})();
+    </script>
 </body>
 </html>
