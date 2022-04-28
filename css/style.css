@@ -741,3 +741,19 @@ img {
 .svg-footer {
   fill:#FFFFFF
 }
+
+
+
+.subscribe-button {
+  color:var(--white-color);
+  background-color:var(--blue-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  min-width: 200px;
+  padding: 10px 32px;
+  border: 0;
+  border-radius: 4px;
+}
