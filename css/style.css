@@ -220,6 +220,7 @@ img {
   padding: 10px 32px;
   border: 0;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .backdrop {
   position: fixed;
@@ -278,6 +279,7 @@ img {
   flex-direction: column;
   margin-bottom: 10px;
   text-align: start;
+  position: relative;
 }
 .field label {
   margin-bottom: 4px;
@@ -290,12 +292,15 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+  height: 40px;
+  padding: 12px 42px;
 }
 .field textarea {
   resize:none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+  height: 120px;
 }
 .field textarea::placeholder {
   font-weight: 400;
@@ -334,7 +339,15 @@ img {
   text-decoration-line: underline;
   color: #2196F3;
 }
-
+.icon-form {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translatey(25%);
+}
+.field-input:focus ~.icon-form {
+  fill:#2196F3;
+}
 
 
 
@@ -755,6 +768,9 @@ img {
   border-radius: 4px;
   background: #2F303A;
   color: #fff;
+}
+.form-footer input::placeholder {
+  padding: 16px;
 }
 .subscribe-button {
   display: flex;
