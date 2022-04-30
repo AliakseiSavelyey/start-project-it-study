@@ -295,6 +295,9 @@ img {
   height: 40px;
   padding: 12px 42px;
 }
+.field-input:focus~.icon-form {
+  fill: #2196F3;
+}
 .field textarea {
   resize:none;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -332,10 +335,24 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
+.input-checkbox {
+  appearance: none;
+}
+.input-checkbox:checked+.icon-checkbox {
+  background-color: #2196F3;
+}
 .icon-checkbox {
-  position: absolute;
-  top: 0;
-  left: 0;
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid black;
+  border-radius: 4px;
+}
+.icon-checkbox:checked {
+  background-color: orange
+  background-image: url(../images/icon-policy.svg);
+  background-size: contain;
+  fill:#fff;
 }
 .checkbox a {
   font-weight: 400;
@@ -351,9 +368,7 @@ img {
   left: 12px;
   transform: translatey(25%);
 }
-.field-input:focus ~.icon-form {
-  fill:#2196F3;
-}
+
 
 
 
