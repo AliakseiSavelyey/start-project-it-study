@@ -325,7 +325,6 @@ img {
 }
 .checkbox {
   display: flex;
-  justify-content: space-evenly;
   align-items: center;
   position: relative;
   margin-top: 20px;
@@ -340,6 +339,10 @@ img {
 }
 .input-checkbox:checked+.icon-checkbox {
   background-color: #2196F3;
+  border: #2196F3;
+  background-image: url(../images/icon-policy.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .icon-checkbox {
   display: block;
@@ -347,12 +350,7 @@ img {
   height: 15px;
   border: 2px solid black;
   border-radius: 4px;
-}
-.icon-checkbox:checked {
-  background-color: orange
-  background-image: url(../images/icon-policy.svg);
-  background-size: contain;
-  fill:#fff;
+  margin-right: 7px;
 }
 .checkbox a {
   font-weight: 400;
