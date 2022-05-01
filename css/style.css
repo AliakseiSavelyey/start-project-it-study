@@ -343,6 +343,7 @@ img {
   background-image: url(../images/icon-policy.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  background-origin: border-box;
 }
 .icon-checkbox {
   display: block;
