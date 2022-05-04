@@ -74,7 +74,7 @@ img {
 
 
  /* header */
-.logo {
+.header-logo {
   color: var(--black-color);
   font-family: 'Raleway';
   font-size: 26px;
@@ -96,11 +96,11 @@ img {
 .header a {
   text-decoration: none;
 }
-.nav-header {
+.header-nav {
   display: flex;
   margin-left: 90px;
 }
-.nav-header a {
+.header-nav a {
   color:var(--title-color);
   text-transform: capitalize;
   font-family: 'Roboto';
@@ -110,12 +110,12 @@ img {
   letter-spacing: 0.02em;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-header a:hover, 
-.nav-header a:focus {
+.header-nav a:hover, 
+.header-nav a:focus {
   color: var(--blue-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-header .current {
+.header-nav .current {
   color: var(--blue-color);
   position: relative;
 }
@@ -129,15 +129,15 @@ img {
   border-radius: 2px;
   bottom: 0;
 }
-.nav-item:not(:last-child) {
+.header-nav__item:not(:last-child) {
   margin-right: 50px;
 }
-.nav-item a {
+.header-nav__item a {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.auth-header {
+.header-auth {
   text-align:right;
   font-family: 'Roboto';
   font-style: normal;
@@ -148,35 +148,35 @@ img {
   display: flex;
   margin-left: auto;
 }
-.auth-link {
+.header-auth__link {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
   color: #757575;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.auth-link:hover, 
-.auth-link:focus {
+.header-auth__link:hover, 
+.header-auth__link:focus {
   color: var(--blue-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.auth-item:not(:last-child) {
+.header-auth__item:not(:last-child) {
   margin-right: 50px;
 }
-.auth-mail, .auth-phone {
+.header-auth-mail, .header-auth__phone {
   height: 12px;
   width: 16px;
   margin-right: 10px;
   fill: #757575;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.auth-link:hover .auth-mail,
-.auth-link:focus .auth-mail {
+.header-auth__link:hover .header-auth-mail,
+.header-auth__link:focus .header-auth-mail {
   fill: var(--blue-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.auth-link:hover .auth-phone,
-.auth-link:focus .auth-phone {
+.header-auth__link:hover .header-auth__phone,
+.header-auth__link:focus .header-auth__phone {
   fill: var(--blue-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -285,31 +285,31 @@ img {
 .form {
   padding: 40px;
 }
-.field {
+.form-field {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
   text-align: start;
   position: relative;
 }
-.field label {
+.form-field label {
   margin-bottom: 4px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.2;
   letter-spacing: 0.01em;
 }
-.field input {
+.form-field input {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
   height: 40px;
   padding: 12px 42px;
 }
-.field-input:focus~.icon-form {
+.form-field__input:focus~.form-field__icon {
   fill: #2196F3;
 }
-.field textarea {
+.form-field textarea {
   resize:none;
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
@@ -317,7 +317,7 @@ img {
   height: 120px;
   padding: 12px 16px;
 }
-.field textarea::placeholder {
+.form-field textarea::placeholder {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.2;
@@ -345,10 +345,10 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.input-checkbox {
+.checkbox-input {
   appearance: none;
 }
-.input-checkbox:checked+.icon-checkbox {
+.checkbox-input:checked+.checkbox-icon {
   background-color: #2196F3;
   border: #2196F3;
   background-image: url(../images/icon-policy.svg);
@@ -356,7 +356,7 @@ img {
   background-repeat: no-repeat;
   background-origin: border-box;
 }
-.icon-checkbox {
+.checkbox-icon {
   display: block;
   width: 15px;
   height: 15px;
@@ -372,7 +372,7 @@ img {
   text-decoration-line: underline;
   color: #2196F3;
 }
-.icon-form {
+.form-field__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -408,17 +408,17 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.section-hidden .list {
+.section-hidden .section-hidden__list {
   display: flex;
   justify-content:space-between;
 }
-.list .item {
+.section-hidden__list .item {
   max-width: 270px;
 }
-.list .item:not(:last-child) {
+.section-hidden__list .item:not(:last-child) {
   margin-right: 30px;
 }
-.hidden-div {
+.section-hidden__div {
   background-color: #F5F4FA;
   height: 120px;
   display: flex;
