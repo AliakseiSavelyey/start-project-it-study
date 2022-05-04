@@ -412,10 +412,10 @@ img {
   display: flex;
   justify-content:space-between;
 }
-.section-hidden__list .item {
+.section-hidden__list .section-hidden__item {
   max-width: 270px;
 }
-.section-hidden__list .item:not(:last-child) {
+.section-hidden__list .section-hidden__item:not(:last-child) {
   margin-right: 30px;
 }
 .section-hidden__div {
