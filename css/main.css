@@ -85,6 +85,10 @@ img {
   background-color: #ECECEC;
 }
 
+.header a {
+  text-decoration: none;
+}
+
 .header .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -96,10 +100,6 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   align-items: center;
-}
-
-.header a {
-  text-decoration: none;
 }
 
 .header-nav {
