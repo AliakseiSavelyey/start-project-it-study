@@ -51,18 +51,6 @@ img {
 }
 
 /* header */
-.header-logo {
-  color: var(--black-color);
-  font-family: 'Raleway';
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-
-.web {
-  color: var(--blue-color);
-}
-
 .header {
   background-color: #ECECEC;
 }
@@ -86,6 +74,18 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   align-items: center;
+}
+
+.header-logo {
+  color: var(--black-color);
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.web {
+  color: var(--blue-color);
 }
 
 .header-nav {
