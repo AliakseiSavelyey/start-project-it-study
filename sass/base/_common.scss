@@ -1,28 +1,9 @@
-:root {
-  --blue-color: #2196F3;
-  --white-color: #FFFFFF;
-  --title-color: #212121;
-  --black-color: #000000;
-  --button-color: #f5f4fa;
-}
-
 body {
   color: #757575;
   background-color: #fff;
   text-decoration: none;
   text-transform: none;
   font-family: Roboto, sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  padding: 0;
-  color: var(--title-color)
 }
 
 h2 {
@@ -47,4 +28,19 @@ p {
 img {
   display: block;
   max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  color: var(--title-color)
 }
