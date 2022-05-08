@@ -15,6 +15,13 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 h2 {
   font-weight: 700;
   font-size: 36px;
@@ -628,13 +635,6 @@ h6 {
   padding-top: 94px;
 }
 
-.section-hidden__container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
 .section-hidden h2 {
   display: none;
 }
@@ -699,13 +699,6 @@ h6 {
   padding-top: 94px;
 }
 
-.our-work__container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
 .our-work h2 {
   margin-bottom: 50px;
 }
@@ -757,13 +750,6 @@ h6 {
   padding-bottom: 94px;
   padding-top: 94px;
   text-align: center;
-}
-
-.our-team__container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .our-team .name {
@@ -871,13 +857,6 @@ h6 {
   padding-top: 94px;
 }
 
-.section-clients__container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
 .clients {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -955,13 +934,6 @@ h6 {
 .section-portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.section-portfolio__container {
-  width: 1200px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin: 0 auto;
 }
 
 .section-portfolio .filters {
