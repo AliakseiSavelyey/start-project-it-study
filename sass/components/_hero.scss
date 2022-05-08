@@ -10,10 +10,7 @@
 }
 
 .hero-container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  @extend .container;
   padding-top: 200px;
   padding-bottom: 200px;
 }

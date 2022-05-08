@@ -15,7 +15,7 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.container {
+.container, .header-container, .footer-container, .hero-container {
   width: 1200px;
   margin: 0 auto;
   padding-right: 15px;
@@ -71,10 +71,6 @@ h6 {
 }
 
 .header-container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,10 +206,6 @@ h6 {
 }
 
 .footer-container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -371,10 +363,6 @@ h6 {
 }
 
 .hero-container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -867,7 +855,7 @@ h6 {
   margin-top: 50px;
 }
 
-.link-clients {
+.clients-link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -885,21 +873,20 @@ h6 {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients .link-clients:hover,
-.clients .link-clients:focus {
+.clients-link:hover, .clients-link:focus {
   border: 1px solid #2196F3;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.svg-clients {
+.clients-svg {
   fill: #AFB1B8;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-clients:hover .svg-clients,
-.link-clients:focus .svg-clients {
+.clients-link:hover .clients-svg,
+.clients-link:focus .clients-svg {
   fill: #2196F3;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);

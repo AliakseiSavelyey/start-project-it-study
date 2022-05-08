@@ -4,10 +4,7 @@
 }
 
 .footer-container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-right: 15px;
-  padding-left: 15px;
+  @extend .container;
   display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
