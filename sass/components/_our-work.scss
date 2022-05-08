@@ -1,0 +1,48 @@
+/* our-work */
+.our-work {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.our-work__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.our-work h2 {
+  margin-bottom: 50px;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.work-overlay {
+  position: relative;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.work-text {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+
+}

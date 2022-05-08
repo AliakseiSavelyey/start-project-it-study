@@ -1,0 +1,60 @@
+/* Section-скрытый заголовок */
+.section-hidden {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.section-hidden__container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.section-hidden h2 {
+  display: none;
+}
+
+.section-hidden h3 {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+.section-hidden p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.section-hidden .section-hidden__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-hidden__list .section-hidden__item {
+  max-width: 270px;
+}
+
+.section-hidden__list .section-hidden__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-hidden__div {
+  background-color: #F5F4FA;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hidden-svg {
+  width: 70px;
+  height: 70px;
+}
