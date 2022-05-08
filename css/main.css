@@ -89,7 +89,7 @@ img {
   text-decoration: none;
 }
 
-.header .container {
+.header-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -128,7 +128,7 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-nav .current {
+.current {
   color: var(--blue-color);
   position: relative;
 }
@@ -177,18 +177,13 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-auth__link:hover,
-.header-auth__link:focus {
+.header-auth__link:hover, .header-auth__link:focus {
   color: var(--blue-color);
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-auth__item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.header-auth-mail,
+.header-auth__mail,
 .header-auth__phone {
   height: 12px;
   width: 16px;
@@ -198,18 +193,18 @@ img {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-auth__link:hover .header-auth-mail,
-.header-auth__link:focus .header-auth-mail {
+.header-auth__link:hover .header-auth__mail,
+.header-auth__link:focus .header-auth__mail, .header-auth__link:hover
+.header-auth__phone,
+.header-auth__link:focus
+.header-auth__phone {
   fill: var(--blue-color);
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-auth__link:hover .header-auth__phone,
-.header-auth__link:focus .header-auth__phone {
-  fill: var(--blue-color);
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.header-auth__item:not(:last-child) {
+  margin-right: 50px;
 }
 
 /* hero - main */
