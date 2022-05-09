@@ -732,26 +732,6 @@ a {
   text-align: center;
 }
 
-.our-team .name {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-
-.our-team h2 {
-  margin-bottom: 50px;
-}
-
-.our-team p {
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-}
-
 .group {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -771,9 +751,26 @@ a {
   margin-right: 30px;
 }
 
-.name {
+.group-name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
   margin-top: 30px;
   margin-bottom: 10px;
+}
+
+.our-team h2 {
+  margin-bottom: 50px;
+}
+
+.our-team p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 
 .profi {
