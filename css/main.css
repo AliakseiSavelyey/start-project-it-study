@@ -692,7 +692,7 @@ a {
           justify-content: space-between;
 }
 
-.work .item:not(:last-child) {
+.work-item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -898,8 +898,7 @@ a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-portfolio:hover,
-.button-portfolio:focus {
+.button-portfolio:hover, .button-portfolio:focus {
   color: var(--white-color);
   background-color: var(--blue-color);
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -909,10 +908,6 @@ a {
 .section-portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
-.section-portfolio .filters {
-  padding-bottom: 50px;
 }
 
 .section-portfolio a {
@@ -937,16 +932,17 @@ a {
   margin-top: 4px;
 }
 
-.filters {
+.portfolio-filters {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 50px;
 }
 
-.filters .item:not(:last-child) {
+.portfolio-item:not(:last-child) {
   margin-right: 8px;
 }
 
@@ -960,7 +956,7 @@ a {
   margin-top: -30px;
 }
 
-.cards .item {
+.cards-item {
   margin-left: 30px;
   margin-top: 30px;
   -ms-flex-preferred-size: calc(100% / 3 - 30px);
@@ -971,8 +967,7 @@ a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cards .item:hover,
-.cards .item:focus {
+.cards-item:hover, .cards-item:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
