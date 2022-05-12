@@ -52,7 +52,7 @@
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: $title-color;
 }
 
 .checkbox {
@@ -80,8 +80,8 @@
   margin-right: 7px;
 
   .checkbox-input:checked+& {
-      background-color: #2196F3;
-      border: #2196F3;
+      background-color: $blue-color;
+      border: $blue-color;
       background-image: url(../images/icon-policy.svg);
       background-size: contain;
       background-repeat: no-repeat;
@@ -95,7 +95,7 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
-  color: #2196F3;
+  color: $blue-color;
 }
 
 .form-field__icon {
@@ -105,6 +105,6 @@
   transform: translatey(25%);
 
   .form-field__input:focus~& {
-      fill: #2196F3;
+      fill: $blue-color;
     }
 }
