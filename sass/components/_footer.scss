@@ -21,7 +21,7 @@
 
 .address-footer p {
   color: $white-color;
-  font-family: 'Roboto';
+  font-family:$main-font;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -30,7 +30,7 @@
 }
 
 .address-footer a {
-  font-family: 'Roboto';
+  font-family:$main-font;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -48,7 +48,7 @@
 
 .footer b {
   display: block;
-  font-family: 'Roboto';
+  font-family:$main-font;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;

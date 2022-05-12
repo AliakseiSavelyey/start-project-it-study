@@ -2,7 +2,7 @@
 .hero-button {
   color: $white-color;
   background-color:$blue-color;
-  font-family: 'Roboto';
+  font-family:$main-font;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -42,7 +42,7 @@
 .button-portfolio {
   color: $title-color;
   background-color: $button-bg-color;
-  font-family: 'Roboto';
+  font-family:$main-font;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
