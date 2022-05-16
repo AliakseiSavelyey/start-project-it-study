@@ -1,5 +1,68 @@
 body {
-  @media screen and (min-width: 800px) {
-    background-color: red;
+  color: $body-color;
+  background-color: $white-color;
+  text-decoration: none;
+  text-transform: none;
+  font-family: $main-font;
+}
+
+.container {
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
   }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  color: $title-color;
+}
+
+a {
+  text-decoration: none;
 }

@@ -103,8 +103,6 @@
 
 .header-auth__mail,
 .header-auth__phone {
-  height: 12px;
-  width: 16px;
   margin-right: 10px;
   fill: $body-color;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
