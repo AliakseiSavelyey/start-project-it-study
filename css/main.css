@@ -107,10 +107,10 @@ a {
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.menu-toggle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.button-toggle {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -122,6 +122,18 @@ a {
   border: none;
   outline: none;
   background-color: transparent;
+}
+
+.menu-close {
+  display: none;
+}
+
+.button-toggle.is-open .menu-close {
+  display: block;
+}
+
+.button-toggle.is-open .menu-open {
+  display: none;
 }
 
 .close-button {

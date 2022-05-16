@@ -16,13 +16,13 @@
             <a href="./index.html" class="header-logo">
                 <span class="web">Web</span>Studio
             </a>
-            <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+            <button type="button" class="button-toggle" data-menu-button aria-expanded="false" aria-controls="mobile-menu">
               <svg class="menu-toggle-svg" width="40" height="40" aria-label="переключатель меню">
                 <use class="menu-open" href="./images/icons-1.svg#icon-icon-menu-open"></use>
-                <use class="close-menu" href="./images/icons-1.svg#icon-icon-close-menu"></use>
+                <use class="menu-close" href="./images/icons-1.svg#icon-icon-close-menu"></use>
               </svg>
             </button>
-        <div class="menu-container js-menu-container" id="mobile-menu">
+            <div class="menu-container" id="mobile-menu" data-menu>
           <ul class="header-nav">
             <li class="header-nav__item"><a href="" class="current">студия</a></li>
             <li class="header-nav__item"><a href="./portfolio.html">портфолио</a></li>
@@ -46,7 +46,7 @@
               </a>
             </li>
         </ul>
-        </div>
+            </div>
         </div>
     </header>
 
@@ -487,17 +487,6 @@
 
     <!-- JS -->
     <script src="./js/modal.js"></script>
-    <script>
-      (() => {
-  document
-    .querySelector('.js-speaker-form').addEventListener('submit', e => {
-    e.preventDefault();
-
-    new FormData(e.currentTarget).forEach((value, name) =>
-      console.log(`${name}: ${value}`),
-    );
-  });
-})();
-    </script>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 </html>
