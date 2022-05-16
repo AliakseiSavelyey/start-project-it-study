@@ -6,26 +6,26 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.container, .header-container {
+.container, .header-container, .hero-container {
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
 }
 
 @media screen and (min-width: 480px) {
-  .container, .header-container {
+  .container, .header-container, .hero-container {
     width: 480px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .container, .header-container {
+  .container, .header-container, .hero-container {
     width: 768px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .container, .header-container {
+  .container, .header-container, .hero-container {
     width: 1200px;
   }
 }
@@ -85,8 +85,44 @@ a {
   letter-spacing: 0.03em;
 }
 
-.web {
-  color: #2196F3;
+/* hero - main */
+.hero {
+  background-color: #2F303A;
+  text-align: center;
+  background-color: #C4C4C4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-img.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img.jpg);
+}
+
+.hero-title {
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1199px) {
+  .hero-title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+  }
 }
 
 /* button */
