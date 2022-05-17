@@ -25,17 +25,17 @@
   border: none;
   outline: none;
   background-color: transparent;
-}
-.menu-close {
-  display: none;
-}
-.button-toggle.is-open .menu-close {
-  display: block;
-}
-.button-toggle.is-open .menu-open {
-  display: none;
-}
 
+  .menu-close {
+    display: none;
+  }
+  &.is-open .menu-close {
+    display: block;
+  }
+  &.is-open .menu-open {
+    display: none;
+  }
+}
 
 // modal close-button
 .close-button {
