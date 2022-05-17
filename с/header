@@ -11,6 +11,14 @@
   align-items: center;
 }
 
+.header-logo {
+  color: $black-color;
+  font-family: $logo-font;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
 .web {
   color: $blue-color;
 }
