@@ -11,10 +11,17 @@
 
 .hero-container {
   @extend .container;
+  @media screen and (max-width:767px) {
+    padding: 118px 60px;
+  }
 }
 
 .hero-title {
   color: $white-color;
+
+  @media screen and (max-width:767px) {
+    padding-bottom: 30px;
+  }
 
   @media screen and (max-width:1199px) {
     font-weight: 900;
