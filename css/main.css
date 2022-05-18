@@ -445,6 +445,11 @@ a {
   background-color: transparent;
 }
 
+.button-toggle :hover,
+.button-toggle :focus {
+  fill: #2196F3;
+}
+
 .button-toggle .menu-close {
   display: none;
 }

@@ -26,6 +26,11 @@
   outline: none;
   background-color: transparent;
 
+  & :hover,
+  & :focus {
+    fill: $blue-color;
+  }
+
   .menu-close {
     display: none;
   }
