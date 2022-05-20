@@ -1,1 +1,71 @@
+/* Секция-постоянные клиенты */
+.section-clients {
+  @media screen and (max-width: 767px) {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+}
 
+.clients {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -15px;
+  @media screen and (min-width: 1200px) {
+    margin-top: 50px;
+  }
+}
+
+.clients-title {
+  @media screen and (max-width: 767px) {
+    font-size: 28px;
+  }
+}
+
+.clients-item {
+  @media screen and (max-width: 767px) {
+      width: calc((100% - 2 * 30px) / 2);
+      margin: 15px;
+    }
+    @media screen and (min-width: 768px) {
+      width: calc((100% - 3 * 30px) / 3);
+      margin: 15px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: calc((100% - 6 * 30px) / 6);
+      margin: 15px;
+    }
+  }
+
+.clients-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border: 1px solid $blue-color;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.clients-svg {
+  fill: $svg-bg-color;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  .clients-link:hover &,
+  .clients-link:focus & {
+    fill: $blue-color;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
