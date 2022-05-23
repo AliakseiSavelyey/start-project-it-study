@@ -40,7 +40,11 @@
   &.is-open .menu-open {
     display: none;
   }
-}
+
+  @media screen and (min-width:768px) {
+    display: none;
+  }
+ }
 
 // modal close-button
 .close-button {
