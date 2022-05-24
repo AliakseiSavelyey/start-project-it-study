@@ -856,7 +856,7 @@ a {
   letter-spacing: 0.03em;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .section-hidden__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -872,6 +872,9 @@ a {
 
 @media screen and (min-width: 1200px) {
   .section-hidden__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -884,7 +887,7 @@ a {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .section-hidden__item {
     margin: 15px;
     width: calc((100% - 2 * 30px) / 2);
