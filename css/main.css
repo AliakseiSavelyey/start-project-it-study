@@ -765,7 +765,7 @@ a {
 }
 
 /* Section-скрытый заголовок */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .section-hidden {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -807,11 +807,22 @@ a {
   letter-spacing: 0.03em;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .section-hidden__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin: -15px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-hidden__list {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -821,6 +832,13 @@ a {
 @media screen and (max-width: 767px) {
   .section-hidden__item:not(:last-child) {
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-hidden__item {
+    margin: 15px;
+    width: calc((100% - 2 * 30px) / 2);
   }
 }
 
@@ -845,11 +863,6 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.hidden-svg {
-  width: 70px;
-  height: 70px;
 }
 
 /* our-work */
