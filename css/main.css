@@ -344,7 +344,6 @@ a {
 
 .address-footer {
   margin-top: 20px;
-  margin-bottom: 60px;
 }
 
 .address-footer p {
@@ -406,8 +405,38 @@ a {
   }
 }
 
-.join {
-  margin-bottom: 60px;
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .logo-address-join {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .footer-logo-address {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-logo-address {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .join {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .join {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -423,6 +452,12 @@ a {
 
 .svg-footer {
   fill: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+  .subscribe {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -451,14 +486,6 @@ a {
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 767px) {
-  .form-footer input {
-    padding: 15px 16px;
-    width: 100%;
-    margin-bottom: 20px;
-  }
-}
-
 .form-footer input::-webkit-input-placeholder {
   padding: 16px;
 }
@@ -473,6 +500,22 @@ a {
 
 .form-footer input::placeholder {
   padding: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .form-footer input {
+    padding: 15px 16px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .form-footer input {
+    padding: 15px 16px;
+    width: 450px;
+    margin-bottom: 20px;
+  }
 }
 
 /* hero - main */
@@ -1460,20 +1503,27 @@ a {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  min-width: 200px;
-  padding: 10px 32px;
   border: 0;
   border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-width: 200px;
+  padding: 10px 32px;
+}
+
+@media screen and (max-width: 1199px) {
+  .subscribe-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .subscribe-button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     margin-left: 12px;
   }
 }

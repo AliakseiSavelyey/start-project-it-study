@@ -41,10 +41,10 @@
     display: none;
   }
 
-  @media screen and (min-width:768px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
- }
+}
 
 // modal close-button
 .close-button {
@@ -101,14 +101,20 @@
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.06em;
-  min-width: 200px;
-  padding: 10px 32px;
   border: 0;
   border-radius: 4px;
+
+  display: flex;
   align-items: center;
-  
-  @media screen and (min-width:1200px) {
-    display: flex;
+  min-width: 200px;
+  padding: 10px 32px;
+
+  @media screen and (max-width:1199px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (min-width: 1200px) {
     margin-left: 12px;
   }
 }
