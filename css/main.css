@@ -871,7 +871,7 @@ a {
   padding-top: 94px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .our-work {
     display: none;
   }
@@ -928,7 +928,7 @@ a {
   text-align: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .our-team {
     padding-bottom: 60px;
     padding-top: 60px;
@@ -939,6 +939,17 @@ a {
   .our-team {
     padding-bottom: 94px;
     padding-top: 94px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
   }
 }
 
@@ -963,6 +974,13 @@ a {
 @media screen and (max-width: 767px) {
   .group-item:not(:last-child) {
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .group-item {
+    width: calc((100% - 2 * 30px) / 2);
+    margin: 15px;
   }
 }
 
