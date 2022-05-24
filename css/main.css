@@ -415,6 +415,14 @@ a {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .logo-address-join {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 @media screen and (max-width: 1199px) {
   .footer-logo-address {
     margin-bottom: 60px;
@@ -454,7 +462,7 @@ a {
   fill: #FFFFFF;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .subscribe {
     text-align: center;
   }
@@ -510,7 +518,7 @@ a {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .form-footer input {
     padding: 15px 16px;
     width: 450px;
