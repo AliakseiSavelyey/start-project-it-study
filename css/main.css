@@ -543,6 +543,12 @@ a {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .hero-container {
+    padding: 200px;
+  }
+}
+
 .hero-title {
   color: #FFFFFF;
 }
