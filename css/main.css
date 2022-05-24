@@ -1120,11 +1120,12 @@ a {
 
 @media screen and (max-width: 767px) {
   .clients-item {
+    margin: 15px;
     width: calc((100% - 2 * 30px) / 2);
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .clients-item {
     margin: 15px;
     width: calc((100% - 3 * 45px) / 3);
