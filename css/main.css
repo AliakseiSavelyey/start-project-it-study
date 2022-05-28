@@ -1205,11 +1205,11 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: -15px;
 }
 
 @media screen and (max-width: 1199px) {
   .clients {
-    margin: -15px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -1250,12 +1250,6 @@ a {
           align-items: center;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-@media screen and (max-width: 767px) {
-  .clients-link {
-    width: 210px;
-  }
 }
 
 @media screen and (min-width: 1200px) {
