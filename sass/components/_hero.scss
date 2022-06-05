@@ -8,17 +8,17 @@
   background-position: center;
 
   background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
+      to bottom,
+        rgba(0, 15, 175, 0.5),
+        rgba(255, 255, 43, 0.4)
+      ),
     url(../../images/hero-image/hero-mobile.jpg);
 
   @media screen and (min-width: 320px) {
     background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
+       to bottom,
+        rgba(0, 15, 175, 0.5),
+        rgba(255, 255, 43, 0.4)
       ),
       url(../../images/hero-image/hero-mobile.jpg);
 
@@ -26,19 +26,19 @@
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       background-image: linear-gradient(
-          to right,
-          rgba(47, 48, 58, 0.4),
-          rgba(47, 48, 58, 0.4)
-        ),
+         to bottom,
+        rgba(0, 15, 175, 0.5),
+        rgba(255, 255, 43, 0.4)
+      ),
         url(../../images/hero-image/hero-mobile@2x.jpg);
     }
   }
 
   @media screen and (min-width: 768px) {
     background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
+        to bottom,
+        rgba(0, 15, 175, 0.5),
+        rgba(255, 255, 43, 0.4)
       ),
       url(../../images/hero-image/hero-tablet.jpg);
 
@@ -46,19 +46,19 @@
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       background-image: linear-gradient(
-          to right,
-          rgba(47, 48, 58, 0.4),
-          rgba(47, 48, 58, 0.4)
-        ),
+          to bottom,
+        rgba(0, 15, 175, 0.5),
+        rgba(255, 255, 43, 0.4)
+      ),
         url(../../images/hero-image/hero-tablet@2x.jpg);
     }
   }
 
   @media screen and (min-width: 1200px) {
     background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
+        to bottom,
+        rgba(0, 15, 175, 0.5),
+        rgba(255, 255, 43, 0.4)
       ),
       url(../../images/hero-image/hero-desktop.jpg);
 
@@ -66,10 +66,10 @@
       screen and (min-resolution: 192dpi),
       screen and (min-resolution: 2dppx) {
       background-image: linear-gradient(
-          to right,
-          rgba(47, 48, 58, 0.4),
-          rgba(47, 48, 58, 0.4)
-        ),
+          to bottom,
+        rgba(0, 15, 175, 0.5),
+        rgba(255, 255, 43, 0.4)
+      ),
         url(../../images/hero-image/hero-desktop@2x.jpg);
     }
   }
